@@ -6,5 +6,14 @@
             "name": "Latik",
             "email": "latik@bistracker.org.ua"
         }
-    ]
+    ],
+    "require": {
+        "php": ">= 5.2.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "files": [
+            "TopSdk.php"
+        ]
+    }
 }
